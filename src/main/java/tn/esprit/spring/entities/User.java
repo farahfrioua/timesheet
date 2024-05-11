@@ -39,6 +39,7 @@ public class User implements Serializable {
 
 	public User(String firstName, String lastName, Date dateNaissance, Role role) {
 		super();
+		//ceci est un constructeur
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.dateNaissance = dateNaissance;
